@@ -22,6 +22,8 @@ Default region could be found under IAM and search for Last used region
 
 2. Try running `aws --version` to confirm the installation
 
+set -x is used as debugging mode. Uncomment the line to see the effect
+
 3. Run the bash script `aws_resource_tracker.sh`(In the script the output get redirected to a file named `resourceTracker`). To remove the redirection, remove from "> resourceTracker"
 
 
